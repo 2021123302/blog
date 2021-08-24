@@ -22,14 +22,14 @@ url: "a-letheia.github.io" # the base hostname & protocol for your site, e.g. ht
 github_username:  a-letheia
 
 collections:
-  inwards-posts:
+  fragments:
     output: true  #컬렉션 내 모든 문서가 각각의 파일로 생성됨
-    permalink: /inwards/:path/:title  #ex. /inwards/essays/essay-1
+    permalink: /inwards/:collections/:title  #ex. /inwards/fragments/essay-1
 
 collections:
-  outwards-posts:
+  essays:
     output: true  #컬렉션 내 모든 문서가 각각의 파일로 생성됨
-    permalink: /outwards/:path/:title
+    permalink: /inwards/:collections/:title #ex. /inwards/fragments/essay-1
 
 # Build settings
 #markdown: kramdown
