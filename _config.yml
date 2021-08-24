@@ -24,12 +24,12 @@ github_username:  a-letheia
 collections:
   fragments:
     output: true  #컬렉션 내 모든 문서가 각각의 파일로 생성됨
-    permalink: /inwards/:collection/:title  #ex. /inwards/fragments/fragments-1
+    permalink: /inwards/:collection/:name  #ex. /inwards/fragments/fragments-1
 
 collections:
   essays:
     output: true  #컬렉션 내 모든 문서가 각각의 파일로 생성됨
-    permalink: /inwards/:collection/:title #ex. /inwards/essays/essay-1
+    permalink: /inwards/:collection/:name #ex. /inwards/essays/essay-1
 
 # Build settings
 #markdown: kramdown
