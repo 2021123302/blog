@@ -337,8 +337,9 @@ main {
 
   #main-top-head {
     display: block;
-    font-family: "Avenir", "Montserrat", sans-serif;
-    font-size: 4em;
+    font-family: "Times New Roman", serif;
+    font-size: 3em;
+    font-style: italic;
     text-align: center;
     padding: 10px;
   }
@@ -355,6 +356,14 @@ main {
     border: 5px #000 solid;
   }
   #article-sect img {
+    display: block;
+    width: 100%;
+  }
+  #logo-sect {
+    display: block;
+    margin: 10px 0;
+  }
+  #logo-sect img {
     display: block;
     width: 100%;
   }
@@ -656,8 +665,9 @@ main {
 
   #main-top-head {
     display: block;
-    font-family: "Avenir", "Montserrat", sans-serif;
+    font-family: "Times New Roman", serif;
     font-size: 3em;
+    font-style: italic;
     text-align: center;
     padding: 10px;
   }
@@ -679,6 +689,14 @@ main {
   }
   #hover-notice-sect {
       display: none;
+  }
+  #logo-sect {
+    display: block;
+    margin: 20px 10px;
+  }
+  #logo-sect img {
+    display: block;
+    width: 100%;
   }
   #og-content-sect {
     display: block;
