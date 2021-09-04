@@ -1,7 +1,13 @@
 ---
 layout: inwards-main
 ---
-<p>hello world; inwards-post layout starts here</p>
-{{ page.title }}
-{{ content }}
-<p>hello world; inwards-post layout ends here</p>
+<div id="post-sect">
+  <div id="post-header-sect">
+    <h1 id="post-h1" class="head2">{{ page.top-category }}</h1>
+    <h2 id="post-h2" class="head2">{{ page.sub-category }}</h2>
+    <h3 id="post-h3" class="head1" lang="ko">{{ page.header-title }}</h3>
+  </div>
+  <div id="post-main-sect" class="contents" lang="ko">
+    {{ content }}
+  </div>
+</div>
