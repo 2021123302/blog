@@ -139,7 +139,7 @@ main {
   #list-h1-sect-dt {
     display: block;
     text-align: center;
-    background-image: url(/dtB/assets/img/daily-thoughts/dt-list-h1-sect-bg.webp);
+    background-image: url(/blog/assets/img/dt-list-h1-sect-bg.webp);
     background-size: 100% auto;
     background-position: center;
     color: white;
@@ -471,7 +471,7 @@ main {
   #list-h1-sect-dt {
     display: block;
     text-align: center;
-    background-image: url(/dtB/assets/img/daily-thoughts/dt-list-h1-sect-bg.webp);
+    background-image: url(/blog/assets/img/dt-list-h1-sect-bg.webp);
     background-size: 100% auto;
     background-position: center;
     color: white;
