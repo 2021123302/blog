@@ -8,7 +8,9 @@ title: Fragments List
 <div id="list-main-sect" class="list">
   <ol>
     {% for fragment in site.fragments %}
-      <li><a href="{{ fragment.url }}" class="list" lang="ko">{{ fragment.sub-category }}_{{ fragment.header-title }}</a></li>
+      {% if fragment.title != 'Fragments List' %}
+        <li><a href="{{ fragment.url }}" class="list" lang="ko">{{ fragment.sub-category }}_{{ fragment.header-title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ol>
 </div>
