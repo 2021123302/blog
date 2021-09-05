@@ -7,7 +7,7 @@ title: Essays List
 </div>
 <div id="list-main-sect" class="list">
   <ol>
-    {% for essay in site.essays %}
+    {% for essay in site.essays if essay.url != "https://a-letheia.github.io/inwards/essays/index" %}
       <li><a href="{{ essay.url }}" class="list" lang="ko">{{ essay.sub-category }}_{{ essay.header-title }}</a></li>
     {% endfor %}
   </ol>
