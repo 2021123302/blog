@@ -24,7 +24,7 @@ github_username:  a-letheia
 collections:
   fragments:
     output: true  #컬렉션 내 모든 문서가 각각의 파일로 생성됨
-    permalink: /inwards/:collection/:name  #ex. /inwards/fragments/fragments-1
+    permalink: /inwards/:collection/:name  #ex. /inwards/fragments/fragment-1
 
 collections:
   essays:
